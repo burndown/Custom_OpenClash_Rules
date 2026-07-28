@@ -1,6 +1,6 @@
 # Generated from rule/Custom_Proxy.list
-# REPO: https://github.com/burndown/Custom_OpenClash_Rules
-# SOURCE: https://github.com/burndown/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
+# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
 # TOTAL: 16
 
 payload:
@@ -20,4 +20,3 @@ payload:
   - DOMAIN-SUFFIX,services.googleapis.cn
   - DOMAIN-SUFFIX,stun.playstation.net
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-

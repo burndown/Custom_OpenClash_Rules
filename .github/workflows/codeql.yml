@@ -2,9 +2,25 @@ name: "CodeQL Advanced"
 
 on:
   push:
+    branches: ["main"]
+    # CodeQL 仅分析 Actions 与 Python；配置、规则和 Wiki 变更无需扫描。
+    paths:
+      - ".github/workflows/**"
+      - ".github/scripts/**"
+      - ".github/dependabot.yml"
+      - "py/**"
+      - "requirements*.txt"
   pull_request:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/**"
+      - ".github/scripts/**"
+      - ".github/dependabot.yml"
+      - "py/**"
+      - "requirements*.txt"
   schedule:
-    - cron: "17 2 * * *"
+    # 每周日执行一次完整扫描；代码与工作流变更仍会即时扫描。
+    - cron: "17 2 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -19,11 +35,6 @@ concurrency:
 
 jobs:
   analyze:
-    if: |
-      (github.event_name == 'push' && github.ref_name == ((vars.WORK_BRANCH != '' && vars.WORK_BRANCH) || 'main')) ||
-      (github.event_name == 'pull_request' && github.base_ref == ((vars.WORK_BRANCH != '' && vars.WORK_BRANCH) || 'main')) ||
-      github.event_name == 'schedule' ||
-      github.event_name == 'workflow_dispatch'
     name: Analyze (${{ matrix.language }})
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
     strategy:
@@ -36,19 +47,18 @@ jobs:
             build-mode: none
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          ref: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && ((vars.WORK_BRANCH != '' && vars.WORK_BRANCH) || 'main') || github.ref }}
           fetch-depth: 2
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v4
+        uses: github/codeql-action/init@e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81 # v4
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
           queries: security-extended,security-and-quality
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v4
+        uses: github/codeql-action/analyze@e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81 # v4
         with:
           category: "/language:${{ matrix.language }}"
