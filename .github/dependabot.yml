@@ -10,11 +10,17 @@ updates:
     rebase-strategy: "auto"
     labels:
       - "dependencies"
-      - "automerge"
     groups:
-      codeql-action:
+      security-updates:
+        applies-to: "security-updates"
         patterns:
-          - "github/codeql-action/*"
+          - "*"
+      routine-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
     commit-message:
       prefix: "chore"
       include: "scope"
@@ -22,15 +28,49 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "daily"
       time: "02:50"
       timezone: "Asia/Shanghai"
     open-pull-requests-limit: 5
     rebase-strategy: "auto"
     labels:
       - "dependencies"
-      - "automerge"
+    groups:
+      security-updates:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      routine-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
+  - package-ecosystem: "npm"
+    directory: "/workers/repository-mirror"
+    schedule:
+      interval: "daily"
+      time: "03:00"
+      timezone: "Asia/Shanghai"
+    open-pull-requests-limit: 5
+    rebase-strategy: "auto"
+    labels:
+      - "dependencies"
+    groups:
+      security-updates:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      routine-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
     commit-message:
       prefix: "chore"
       include: "scope"
