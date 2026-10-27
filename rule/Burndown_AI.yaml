@@ -1,0 +1,15 @@
+# 来源：路由器 Open-Box 手写规则（出口 AI）+ Surge 手写规则 AI → 🤖 国外AI服务
+# category-ai-!cn 上游 ini 已有 GEOSITE，这里不重复
+payload:
+  - DOMAIN-KEYWORD,meta.com
+  - DOMAIN-KEYWORD,muse.ai
+  - DOMAIN-KEYWORD,facebook.com
+  - DOMAIN-KEYWORD,meta.ai
+  - DOMAIN-KEYWORD,metaaivm.com
+  - DOMAIN-SUFFIX,facebook.com # Added for: graph.facebook.com:443
+  - DOMAIN-SUFFIX,metaaivm.com # Added for: hatch.metaaivm.com:443
+  - DOMAIN-SUFFIX,ibkr.com # Added for: api.ibkr.com:443
+  - DOMAIN-SUFFIX,ibllc.com # Added for: tws.ibllc.com:4001
+  - DOMAIN-SUFFIX,interactivebrokers.com # Added for: www.interactivebrokers.com:443
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai

@@ -1,0 +1,8 @@
+# 来源：Surge 手写规则 DIRECT → 🎯 全球直连
+payload:
+  - DOMAIN-SUFFIX,zaticdn.com # Added for: cdn.zaticdn.com:443
+  - DOMAIN-SUFFIX,zajourney.com # Added for: appmon-prd.zajourney.com:443
+  - DOMAIN-SUFFIX,zafinsvc.com # Added for: marketpush-dr.zafinsvc.com:9030
+  - DOMAIN-SUFFIX,za.group
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,bochk.com

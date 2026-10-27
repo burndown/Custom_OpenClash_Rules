@@ -1,0 +1,9 @@
+# 来源：Surge 手写规则 Automatic → ♻️ 自动选择
+payload:
+  - DOMAIN-SUFFIX,mapbox.com
+  - DOMAIN-SUFFIX,mask-api.fe.apple-dns.net
+  - DOMAIN-SUFFIX,mask-api.icloud.com
+  - DOMAIN-SUFFIX,mask-t.apple-dns.net
+  - DOMAIN-SUFFIX,mask.apple-dns.net
+  - DOMAIN-SUFFIX,mask-h2.icloud.com
+  - DOMAIN-SUFFIX,mask.icloud.com

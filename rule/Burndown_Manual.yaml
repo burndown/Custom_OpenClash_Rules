@@ -1,0 +1,11 @@
+# 来源：路由器 Open-Box 手写规则，出口 自留地（默认 所有-手动）→ 🚀 手动选择
+# 原类型：域名关键词（domain_keyword）
+payload:
+  - DOMAIN-KEYWORD,geofabrik.de
+  - DOMAIN-KEYWORD,openstreetmap
+  - DOMAIN-KEYWORD,openfreemap.org
+  - DOMAIN-KEYWORD,sidestore.io
+  - DOMAIN-KEYWORD,daituai.cc
+  - DOMAIN-KEYWORD,firefox.com
+  - DOMAIN-KEYWORD,mozilla.org
+  - DOMAIN-KEYWORD,cloudflare.com
