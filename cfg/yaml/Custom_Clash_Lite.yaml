@@ -66,8 +66,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "📢 谷歌FCM"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -96,8 +94,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "🍎 苹果服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -112,8 +108,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "Ⓜ️ 微软服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -128,8 +122,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "🎮 游戏平台"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -144,8 +136,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "🎮 Steam"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -160,8 +150,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "🚀 测速工具"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -176,8 +164,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "🐟 漏网之鱼"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -192,8 +178,6 @@ proxy-groups:
       - "🇸🇬 新加坡节点"
       - "🇼🇸 台湾节点"
       - "🇰🇷 韩国节点"
-    use:
-      - provider1
   - name: "🔀 非标端口"
     type: select
     url: https://www.gstatic.com/generate_204

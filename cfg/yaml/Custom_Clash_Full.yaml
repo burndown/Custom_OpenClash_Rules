@@ -111,8 +111,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎧 Discord"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -136,8 +134,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "📞 Talkatone"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -161,8 +157,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "📹 Zoom"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -187,8 +181,6 @@ proxy-groups:
       - "♻️ 自动选择"
       - "🚀 手动选择"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "💬 即时通讯"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -212,8 +204,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🌐 社交媒体"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -237,8 +227,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🚀 GitHub"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -263,8 +251,6 @@ proxy-groups:
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "📦 容器服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -289,8 +275,6 @@ proxy-groups:
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "💻 开发者服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -315,8 +299,6 @@ proxy-groups:
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "📚 学术资源"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -341,8 +323,6 @@ proxy-groups:
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "🤖 ChatGPT"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -366,8 +346,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🤖 Copilot"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -391,8 +369,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🤖 Claude"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -416,8 +392,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🤖 Gemini"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -441,8 +415,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🤖 Grok"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -466,8 +438,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🤖 国外AI服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -491,8 +461,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🤖 国内AI服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -517,8 +485,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎶 TikTok"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -542,8 +508,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "📹 YouTube"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -567,8 +531,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎥 Netflix"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -592,8 +554,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎥 DisneyPlus"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -617,8 +577,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎥 HBO"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -642,8 +600,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎥 PrimeVideo"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -667,8 +623,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎥 AppleTV+"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -693,8 +647,6 @@ proxy-groups:
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "🎥 Emby"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -719,8 +671,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎻 Spotify"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -745,8 +695,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "📺 Bahamut"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -756,8 +704,6 @@ proxy-groups:
       - "🇭🇰 香港节点"
       - "🚀 手动选择"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "🌎 国外媒体"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -781,8 +727,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "📰 新闻资讯"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -806,8 +750,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🛒 国外电商"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -831,8 +773,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🪙 加密货币"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -856,8 +796,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "📢 谷歌FCM"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -882,8 +820,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🇬 谷歌服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -907,8 +843,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🍎 苹果服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -933,8 +867,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "Ⓜ️ 微软服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -959,8 +891,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "💾 OneDrive"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -985,8 +915,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "💳 PayPal"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -1059,8 +987,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🎮 Steam"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -1085,8 +1011,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "⏬ PT站点"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -1111,8 +1035,6 @@ proxy-groups:
       - "🚀 手动选择"
       - "♻️ 自动选择"
       - "🎯 全球直连"
-    use:
-      - provider1
   - name: "🚀 测速工具"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -1137,8 +1059,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🌍 国外域名"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -1163,8 +1083,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🐟 漏网之鱼"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -1189,8 +1107,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🔀 非标端口"
     type: select
     url: https://www.gstatic.com/generate_204
