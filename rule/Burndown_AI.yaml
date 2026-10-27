@@ -3,11 +3,9 @@
 payload:
   - DOMAIN-KEYWORD,meta.com
   - DOMAIN-KEYWORD,muse.ai
-  - DOMAIN-KEYWORD,facebook.com
+  - DOMAIN-KEYWORD,facebook.com # Added for: graph.facebook.com:443
   - DOMAIN-KEYWORD,meta.ai
-  - DOMAIN-KEYWORD,metaaivm.com
-  - DOMAIN-SUFFIX,facebook.com # Added for: graph.facebook.com:443
-  - DOMAIN-SUFFIX,metaaivm.com # Added for: hatch.metaaivm.com:443
+  - DOMAIN-KEYWORD,metaaivm.com # Added for: hatch.metaaivm.com:443
   - DOMAIN-SUFFIX,ibkr.com # Added for: api.ibkr.com:443
   - DOMAIN-SUFFIX,ibllc.com # Added for: tws.ibllc.com:4001
   - DOMAIN-SUFFIX,interactivebrokers.com # Added for: www.interactivebrokers.com:443
