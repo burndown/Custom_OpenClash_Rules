@@ -6,8 +6,5 @@ payload:
   - DOMAIN-KEYWORD,facebook.com # Added for: graph.facebook.com:443
   - DOMAIN-KEYWORD,meta.ai
   - DOMAIN-KEYWORD,metaaivm.com # Added for: hatch.metaaivm.com:443
-  - DOMAIN-SUFFIX,ibkr.com # Added for: api.ibkr.com:443
-  - DOMAIN-SUFFIX,ibllc.com # Added for: tws.ibllc.com:4001
-  - DOMAIN-SUFFIX,interactivebrokers.com # Added for: www.interactivebrokers.com:443
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,x.ai
