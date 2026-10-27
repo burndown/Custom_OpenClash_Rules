@@ -3,8 +3,8 @@
 payload:
   - DOMAIN-KEYWORD,meta.com
   - DOMAIN-KEYWORD,muse.ai
-  - DOMAIN-KEYWORD,facebook.com # Added for: graph.facebook.com:443
+  - DOMAIN-KEYWORD,facebook.com
   - DOMAIN-KEYWORD,meta.ai
-  - DOMAIN-KEYWORD,metaaivm.com # Added for: hatch.metaaivm.com:443
+  - DOMAIN-KEYWORD,metaaivm.com
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,x.ai

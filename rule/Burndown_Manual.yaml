@@ -10,6 +10,6 @@ payload:
   - DOMAIN-KEYWORD,mozilla.org
   - DOMAIN-KEYWORD,cloudflare.com
   # 来源：Surge 手写规则（原 AI 组，改走手动选择）
-  - DOMAIN-SUFFIX,ibkr.com # Added for: api.ibkr.com:443
-  - DOMAIN-SUFFIX,ibllc.com # Added for: tws.ibllc.com:4001
-  - DOMAIN-SUFFIX,interactivebrokers.com # Added for: www.interactivebrokers.com:443
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,ibllc.com
+  - DOMAIN-SUFFIX,interactivebrokers.com
